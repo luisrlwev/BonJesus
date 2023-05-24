@@ -35,7 +35,7 @@ function submitForm() {
 function formSuccess() {
     $("#contactForm");
     submitMSG(true, "¡Mensaje Enviado!")
-    document.getElementById("formOne").reset();
+    document.getElementById("contactForm").reset();
 }
 
 function formError() {

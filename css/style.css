@@ -58,7 +58,7 @@ h1 {
 
 h2 {
     font-family: 'Spartan', sans-serif;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 1000;
 }
 
@@ -103,17 +103,23 @@ li{
     color: #fff;
     font-size: 20px;
     font-weight: 600;
-    line-height: 40px;
+    line-height: 35px !important;
     font-family: 'Spartan', sans-serif;
     border-radius: 3px;
-    background-color: #fb9502;
-    width: 85%;
-    border: 0;
-    height: 40px;
+    background-color: #fb9502 !important;
+    width: 85% !important;
+    border: 2px solid #fb9502;
+    height: 40px !important;
     text-align: center;
     -webkit-transition: all .25s ease;
     transition: all .25s ease;
     margin: 15px 0px;
+}
+
+.btn-habitaciones:hover,active,focus{
+    color: #fb9502;
+    background-color: #fff !important;
+    border: 2px solid #fb9502;
 }
 
 .borde-habitaciones{
@@ -128,7 +134,7 @@ li{
     line-height: 60px;
     font-family: 'Spartan', sans-serif;
     border-radius: 3px;
-    background-color: #fb9502;
+    background-color: #01BABC;
     width: 240px;
     border: 0;
     height: 67px;
@@ -140,10 +146,11 @@ li{
 .color-bonjesus{
     color: #fb9502;
     padding: 0px 15px;
+    text-align: center;
 }
 
 .btn-primary {
-    background-color: #fb9502;
+    background-color: #01BABC;
     color: #fff;
 }
 
@@ -154,9 +161,9 @@ li{
 .btn-primary:active,
 .btn-primary:focus {
     background-color: #fff;
-    color: #fb9502;
+    color: #01BABC;
     border: 2px solid;
-    border-color: #fb9502;
+    border-color: #01BABC;
     outline: none;
 }
 
@@ -207,7 +214,7 @@ li{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(251, 149, 2, .7);
     z-index: -1;
 }
 
@@ -265,7 +272,7 @@ li{
     .btn {
         height: 50px;
         line-height: 45px;
-        font-size: 16px;
+        font-size: 10px;
     }
 }
 
@@ -321,7 +328,7 @@ textarea.form-control {
     width: 100%;
     border-style: solid;
     border-width: 2px;
-    border-color: #fb9502;
+    border-color: #01BABC;
     box-sizing: border-box;
     position: relative;
     color: #000;
@@ -511,7 +518,7 @@ Header
 .navbar-inverse .navbar-nav>li>a {
     color: #ffffff;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     display: block;
     text-align: right;
 }
@@ -589,7 +596,7 @@ About
 ---------------------------- */
 .about-text {
     color: #333333;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 22px;
@@ -852,7 +859,7 @@ FOOTER
 }
 
 hr {
-    border-top: 1px solid #fb9502;
+    border-top: 1px solid #fff;
 }
 
 /*Responsive*/
@@ -936,11 +943,11 @@ hr {
     }
 
     .sec-heading {
-        font-size: 22px;
+        font-size: 35px;
     }
 
     .sec-heading-tag {
-        font-size: 15px;
+        font-size: 22px;
     }
 
     .call-to-action {
@@ -1027,7 +1034,7 @@ hr {
 }
 
 .logo {
-    width: 60%;
+    width: 85%;
 }
 
 .text-white {
@@ -1100,7 +1107,7 @@ hr {
 }
 
 .agree{
-  color: #000;
+  color: #fff;
   width: 50%;
 }
 .btn-close{
@@ -1117,7 +1124,7 @@ hr {
     width: 100%;
     border-style: solid;
     border-width: 2px;
-    border-color: #fb9502;
+    border-color: #01BABC;
     box-sizing: border-box;
     position: relative;
     font-size: 15px;
@@ -1126,9 +1133,9 @@ hr {
 }
 .btn-reserva:hover,active,focus{
     background-color: #fff;
-    color: #fb9502;
+    color: #01BABC;
     border: 2px solid;
-    border-color: #fb9502;
+    border-color: #01BABC;
     outline: none;
 }
 
@@ -1143,4 +1150,12 @@ hr {
     box-shadow: none !important;
     border: none !important;
     margin-bottom: 0px !important;
+}
+
+.mb-2{
+    margin-bottom: 20px;
+}
+
+.my-2{
+    margin: 20px 0px;
 }
